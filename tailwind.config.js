@@ -96,8 +96,10 @@ export default {
       },
       backgroundImage: {
         "navbar-gradient":
-          "linear-gradient(to right, rgba(67, 24, 255, 0.25), #FEC6DF)", // bg-gradient-to-r from-[#4318FF40] to-[#FEC6DF]
+          "linear-gradient(to right, rgba(67, 24, 255, 0.4), #FEC6DF)", // bg-gradient-to-r from-[#4318FF40] to-[#FEC6DF]
         "upgrade-card-gradient": "linear-gradient(to bottom, #FD71AF, #FEC6DF)", // bg-gradient-to-b from-[#FD71AF] to-[#FEC6DF]
+        "custom-angular-gradient":
+          "conic-gradient(from 125.15deg at 56.71% 30.49%, #6670EC -39.64deg, #FF6444 42.08deg, #FE00C2 92.84deg, #FD71AF 119.79deg, #6670EC 320.36deg, #FF6444 402.08deg)",
       },
     },
   },
